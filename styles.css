@@ -78,3 +78,16 @@ img {
     font-size: 18px;
 }
 
+.button-container {
+    margin-top: 20px; /* Add space between text and button */
+}
+
+button {
+    padding: 20px; /* Double the padding for a bigger button */
+    font-size: 16px; /* Adjust font size as needed */
+    background-color: #4caf50; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
