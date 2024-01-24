@@ -16,3 +16,18 @@ body {
     text-decoration: none;
     padding: 8px;
 }
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar .material-symbols-outlined {
+    font-size: 24px;
+    margin-right: 0px;
+}
+
+.logo {
+    margin-right: auto;
+    font-weight: bold;
+}
