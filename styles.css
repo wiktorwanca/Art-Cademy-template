@@ -37,3 +37,8 @@ body {
     margin-right: auto;
     font-weight: bold;
 }
+
+img {
+    border-radius: 20%;
+    margin-right: 100px;
+}
