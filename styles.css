@@ -52,3 +52,15 @@ img {
 .text-container {
     text-align: left; 
 }
+
+.text-container p:first-child {
+    font-size: 70px;
+}
+
+.text-container p:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+.text-container p:last-child {
+    font-size: 18px;
+}
