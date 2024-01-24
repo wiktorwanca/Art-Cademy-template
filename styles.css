@@ -5,8 +5,8 @@ body {
 
 .navbar {
     background-color: #1f2028;
-    padding: 10px 20px; 
-    text-align: center; 
+    padding: 10px 20px;
+    text-align: center;
 }
 
 .navbar ul {
@@ -15,12 +15,6 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-}
-
-.navbar a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 8px;
 }
 
 .navbar li {
@@ -33,14 +27,22 @@ body {
     margin-right: 0px;
 }
 
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+}
+
 .logo {
     margin-right: auto;
     font-weight: bold;
 }
 
-img {
-    border-radius: 20%;
-    margin-right: 100px;
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .content {
@@ -49,8 +51,19 @@ img {
     padding: 20px;
 }
 
+img {
+    border-radius: 20%;
+    margin-right: 100px;
+}
+
 .text-container {
-    text-align: left; 
+    text-align: left;
+}
+
+.text-container p {
+    margin: 10px 0;
+    color: #ffffff;
+    font-size: 18px;
 }
 
 .text-container p:first-child {
@@ -62,12 +75,6 @@ img {
 }
 
 .text-container p:last-child {
-    font-size: 18px;
-}
-
-.text-container p {
-    margin: 10px 0;
-    color: #ffffff;
     font-size: 18px;
 }
 
