@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+.navbar {
+    background-color: #1f2028;
+    padding: 10px 20px; /* Add padding for better visibility */
+    text-align: center; /* Center text within the navbar */
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
